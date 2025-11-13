@@ -34,17 +34,4 @@ namespace galois {
     private:
         T generator;
     };
-    
-    /*template<typename T, T(*Operation)(T,T)>
-    class Semigroup {
-    public:
-        Semigroup(T _generator) : generator(_generator) {}
-        void Show() const {
-        }
-        int Order() const {
-            return 0;
-        }
-    private:
-        T generator;
-    };*/
 }
